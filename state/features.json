@@ -1,0 +1,28 @@
+{
+	"$schema": "Manually maintained. Update only to reflect verified progress.",
+	"updated": "2026-04-19",
+	"features": [
+		{
+			"id": "ontology-proposal-lifecycle",
+			"title": "Ontology proposal lifecycle",
+			"owner": "unassigned",
+			"status": "not-started",
+			"priority": "p0",
+			"spec": "docs/spec.md#flow-1--ontology-proposal-lifecycle",
+			"quality": "quality/QUALITY.md#flow-1--ontology-proposal-lifecycle",
+			"plan": null,
+			"notes": "Open: where the proposal artifact lives, minimum review info, accept/reject mechanics, audit trail."
+		},
+		{
+			"id": "context-graph-step-visualization",
+			"title": "Context-graph visualization for multi-step agent runs",
+			"owner": "unassigned",
+			"status": "not-started",
+			"priority": "p0",
+			"spec": "docs/spec.md#flow-2--context-graph-visualization-for-multi-step-agent-runs",
+			"quality": "quality/QUALITY.md#flow-2--context-graph-visualization-for-multi-step-agent-runs",
+			"plan": null,
+			"notes": "Open: canonical context-graph representation, per-step trace format, visualization surface, reference material to be linked from docs/decisions/."
+		}
+	]
+}

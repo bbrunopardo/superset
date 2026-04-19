@@ -2,6 +2,27 @@
 
 Guidelines for agents and developers working in this repository.
 
+## First reads (harness map)
+
+This repo follows the agent-first harness from `bbrunopardo/structure`. Read these in order at the start of any non-trivial task:
+
+1. [`README.md`](README.md) — project purpose.
+2. [`ARCHITECTURE.md`](ARCHITECTURE.md) — codemap, boundaries, invariants.
+3. [`docs/spec.md`](docs/spec.md) — product scope and current priority flows.
+4. [`quality/QUALITY.md`](quality/QUALITY.md) — acceptance criteria and engineering invariants.
+5. [`state/progress.md`](state/progress.md) and [`state/features.json`](state/features.json) — live status.
+6. [`runbooks/init.md`](runbooks/init.md) — install / run / test / reset.
+7. [`PLANS.md`](PLANS.md) — how execution plans are written; active plans live in [`plans/`](plans/), shipped in `plans/done/`.
+8. [`checks/README.md`](checks/README.md) — planned mechanical guardrails.
+
+Working rules layered on top of the sections below:
+
+- Plans, progress, and decisions live in repo files, not chat.
+- Update `state/features.json` only to reflect verified progress.
+- Update `state/progress.md` at meaningful stopping points.
+- For complex work, create or update a plan in `plans/` (see `PLANS.md`).
+- Preserve the boundaries and invariants in `ARCHITECTURE.md`.
+
 ## Structure
 
 Bun + Turbo monorepo with:
